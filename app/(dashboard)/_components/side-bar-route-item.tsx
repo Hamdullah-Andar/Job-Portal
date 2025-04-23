@@ -7,7 +7,7 @@ interface SideBarRouteItemProps {
   label: string;
   href: string;
 }
-export const SideBarRouteItem = ({
+const SideBarRouteItem = ({
   icon: Icon,
   label,
   href,
@@ -49,3 +49,5 @@ export const SideBarRouteItem = ({
     </button>
   );
 };
+
+export default SideBarRouteItem;
